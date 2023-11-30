@@ -1,25 +1,32 @@
-/* tablet: dai 768px in giù */
-
+/* ! tablet: dai 768px in giù */
+@media screen and (max-width: 1160px) {
+    /* Per togliere la scrolbar orizzontale */
+    .container{
+        width: 760px;
+    }
+    
+}
 @media screen and (max-width: 768px) {
-
+    /* Avvicinare i cntenuti */
     .container{
         width: 750px;
     }
     
 }
 
-/* mobile: dai 576px in giù */
+/* ! mobile: dai 576px in giù */
 
 @media screen and (max-width: 576px) {
 
+    /* Dimminuzione container */
     .container{
         width: 570px;
     }
-
+    /* Mettere elementi uno sopra l'altro */
     .row{
         display: block;
     }
-    
+    /* Centrare il container */
     *,
     *::before,
     *::after {
