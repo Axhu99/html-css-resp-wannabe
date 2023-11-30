@@ -7,3 +7,22 @@
     }
     
 }
+
+/* mobile: dai 576px in giù */
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        width: 570px;
+    }
+
+    .row{
+        display: block;
+    }
+    
+    *,
+    *::before,
+    *::after {
+	margin: 0 auto;
+    }
+}
