@@ -26,6 +26,14 @@
     .row{
         display: block;
     }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 90%;
+    }
+
     /* Centrare il container */
     *,
     *::before,
