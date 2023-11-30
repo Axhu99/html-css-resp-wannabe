@@ -20,11 +20,12 @@
 
     /* Dimminuzione container */
     .container{
-        width: 570px;
+        width: 100vw;
     }
     /* Mettere elementi uno sopra l'altro */
     .row{
         display: block;
+        padding-bottom: 3rem;
     }
 
     .lessons .col,
@@ -39,5 +40,13 @@
     *::before,
     *::after {
 	margin: 0 auto;
+    }
+    .why-us{
+        background-color: black;
+        padding-top: 3rem;
+    }
+
+    .steps{
+        margin: 0;
     }
 }
