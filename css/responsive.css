@@ -9,7 +9,7 @@
 @media screen and (max-width: 768px) {
     /* Avvicinare i cntenuti */
     .container{
-        width: 750px;
+        width: 100vw;
     }
     
 }
