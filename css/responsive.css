@@ -6,35 +6,28 @@
 
 @media screen and (max-width: 576px) {
 
-    /* Dimminuzione container */
-    .container{
-        width: 100vw;
-    }
     /* Mettere elementi uno sopra l'altro */
     .row{
         display: block;
+    }
+    /* spazio fra i blocchi */
+    .row .col{
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* spazio tra i conteiner */
+    .container{
         padding-bottom: 3rem;
     }
-
-    .lessons .col,
-    .steps .col,
-    .why-us .col-left,
-    .why-us .col-right{
-        width: 90%;
-    }
-
-    /* Centrare il container */
-    *,
-    *::before,
-    *::after {
-	margin: 0 auto;
-    }
+    /* cambio il background */
     .why-us{
         background-color: black;
-        padding-top: 3rem;
+        padding: 3rem 0;
     }
 
-    .steps{
+    .steps,
+    .why-us,
+    .lessons{
         margin: 0;
     }
 }
