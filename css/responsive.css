@@ -1,19 +1,7 @@
-/* ! tablet: dai 768px in giù */
-@media screen and (max-width: 1160px) {
-    /* Per togliere la scrolbar orizzontale */
-    .container{
-        width: 760px;
-    }
-    
+.container{
+    width: 100%;
+    max-width: 1140px;
 }
-@media screen and (max-width: 768px) {
-    /* Avvicinare i cntenuti */
-    .container{
-        width: 100vw;
-    }
-    
-}
-
 /* ! mobile: dai 576px in giù */
 
 @media screen and (max-width: 576px) {
